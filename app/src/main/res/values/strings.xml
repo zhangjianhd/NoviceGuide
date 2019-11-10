@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NoviceGuideDemo</string>
+    <string name="zj_001">第一个按钮</string>
+    <string name="zj_002">第二个按钮</string>
+    <string name="zj_003">第三个按钮</string>
+    <string name="zj_004">高亮View的引导文案，点击\"知道了\"进行下一步</string>
+
+    <string name="zj_005">点击下方按钮，就可以再出出现该引导\n点击空白处关闭</string>
+    <string name="zj_006">我知道了</string>
+</resources>
