@@ -50,29 +50,29 @@ dependencies {
 ### 创建一个引导:
 
 ```java
-  new NoviceGuide.Builder(MainActivity.this)
-                          .focusView(binding.btnGuide)
-                          .setRadius(1000)    //显示出圆形
-                          .setRelyActivity(MainActivity.this)
-                          .setLayout(R.layout.layout_btn_guide, new DecorateInflate() {
-                              @Override
-                              public void onInflate(final NoviceGuide NoviceGuide, View inflaterView) {
-                                  inflaterView.setOnClickListener(new View.OnClickListener() {
-                                      @Override
-                                      public void onClick(View v) {
-                                          NoviceGuide.dismiss();
-                                      }
-                                  });
-                              }
-                          })
-                          .build()
-                          .show();
+ new NoviceGuide.Builder(MainActivity.this)
+                        .focusView(binding.btnGuide)
+                        .setRadius(1000)    //显示出圆形
+                        .setRelyActivity(MainActivity.this)
+                        .setLayout(R.layout.layout_btn_guide, new DecorateInflate() {
+                            @Override
+                            public void onInflate(final NoviceGuide noviceGuide, View inflaterView) {
+                                inflaterView.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        noviceGuide.dismiss();
+                                    }
+                                });
+                            }
+                        })
+                        .build()
+                        .show();
 ```
 
 ### 如果是一系列的步骤引导，你可以使用*NoviceGuideSet*
 
 ```java
-NoviceGuide NoviceGuide1 = new NoviceGuide.Builder(MainActivity.this)
+NoviceGuide noviceGuide1 = new NoviceGuide.Builder(MainActivity.this)
                 .focusView(binding.tvBtn1)
                 .setPadding(5, 5, 5, 5)
                 .setRadius(15)
@@ -81,7 +81,7 @@ NoviceGuide NoviceGuide1 = new NoviceGuide.Builder(MainActivity.this)
                 .setPassId(R.id.iv_know)
                 .build();
 
-NoviceGuide NoviceGuide2 = new NoviceGuide.Builder(MainActivity.this)
+NoviceGuide noviceGuide2 = new NoviceGuide.Builder(MainActivity.this)
                 .focusView(binding.tvBtn2)
                 .setPadding(5, 5, 5, 5)
                 .setRadius(15)
@@ -90,10 +90,10 @@ NoviceGuide NoviceGuide2 = new NoviceGuide.Builder(MainActivity.this)
                 .setPassId(R.id.iv_know)
                 .build();
 
-NoviceGuideSet NoviceGuideSet = new NoviceGuideSet();
-NoviceGuideSet.addGuide(NoviceGuide1);
-NoviceGuideSet.addGuide(NoviceGuide2);
-NoviceGuideSet.show();
+NoviceGuideSet noviceGuideSet = new NoviceGuideSet();
+noviceGuideSet.addGuide(noviceGuide1);
+noviceGuideSet.addGuide(noviceGuide1);
+noviceGuideSet.show();
 ```
 
  ## 效果
