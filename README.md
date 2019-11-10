@@ -1,5 +1,7 @@
 # Android无侵入式引导提示-NoviceGuide
 
+[![](https://jitpack.io/v/ZhangJian96/NoviceGuide.svg)](https://jitpack.io/#ZhangJian96/NoviceGuide)
+
 ## 优点
 
 代码无侵入式，不需要处理原来的布局以及逻辑，只要在需要显示的地方像显示一个dialog一样配置好然后调用show方法即可
