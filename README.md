@@ -98,6 +98,6 @@ noviceGuideSet.show();
 
  ## 效果
 
-![提示引导](https://github.com/ZhangJian96/NoviceGuide/blob/master/exp.jpg?raw=true "提示引导")
-![多步骤第一步](https://github.com/ZhangJian96/NoviceGuide/blob/master/exp_chain_0.jpg?raw=true "第一步")
-![多步骤第二步](https://github.com/ZhangJian96/NoviceGuide/blob/master/exp_chain_1.jpg?raw=true "第二步")
+![提示引导](https://github.com/zhangjianhd/NoviceGuide/blob/master/exp.jpg?raw=true "提示引导")
+![多步骤第一步](https://github.com/zhangjianhd/NoviceGuide/blob/master/exp_chain_0.jpg?raw=true "第一步")
+![多步骤第二步](https://github.com/zhangjianhd/NoviceGuide/blob/master/exp_chain_1.jpg?raw=true "第二步")
