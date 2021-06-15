@@ -1,7 +1,8 @@
 package com.zj.lib.noviceguidedemo;
 
-import android.databinding.ViewDataBinding;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.databinding.ViewDataBinding;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by zj on 2019-10-26 in project NoviceGuideDemo.
