@@ -10,14 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <meta-data
-            android:name="design_width"
-            android:value="720" />
-        <meta-data
-            android:name="design_height"
-            android:value="1280" />
-
-        <activity android:name="com.zj.lib.noviceguidedemo.MainActivity">
+        <activity android:name="com.zj.lib.noviceguidedemo.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

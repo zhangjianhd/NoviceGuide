@@ -10,14 +10,15 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.support.annotation.IdRes;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+
+import androidx.annotation.IdRes;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.Nullable;
 
 /**
  * Created by zj on 2019-07-22.
@@ -170,7 +171,7 @@ public class NoviceGuide extends FrameLayout {
             return this;
         }
 
-        public Builder setLayout(@LayoutRes int layout,@Nullable DecorateInflate decorateInflate) {
+        public Builder setLayout(@LayoutRes int layout, @Nullable DecorateInflate decorateInflate) {
             noviceGuide.layout = layout;
             noviceGuide.decorateInflate = decorateInflate;
             return this;
