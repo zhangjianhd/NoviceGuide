@@ -19,7 +19,7 @@ allprojects {
 
 ```groovy
 dependencies {
-	        implementation 'com.github.ZhangJian96:NoviceGuide:1.0.0'
+	        implementation 'com.github.zhangjianhd:NoviceGuide:1.0.1'
 	}
 ```
 
